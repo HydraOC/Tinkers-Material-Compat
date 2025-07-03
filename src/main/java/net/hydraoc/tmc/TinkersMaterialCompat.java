@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package net.hydraoc.tmc;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -22,7 +22,8 @@ import java.util.stream.Collectors;
 public class TinkersMaterialCompat
 {
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
+    public static final String MOD_ID = "tmc";
 
     public TinkersMaterialCompat()
     {
